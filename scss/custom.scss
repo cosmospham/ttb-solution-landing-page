@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600&subset=vietnamese,latin);
+
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+@font-face {
+  font-family: 'icomoonfree';
+  src: url("fonts/IcoMoon-Free.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@import 'landio.scss';
+
+[class^="iconfree-"], [class*=" iconfree-"] {
+  font-family: 'icomoonfree';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+.iconfree-database:before {
+  content: "\e964"; 
+}
+
+.iconfree-tree:before {
+  content: "\e9bc"; 
+}
+
+.iconfree-user-tie:before {
+  content: "\e976"; 
+}
