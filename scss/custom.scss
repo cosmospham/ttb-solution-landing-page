@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600&subset=vietnamese,latin);
 
 $font-family-sans-serif: 'Source Sans Pro', sans-serif;
+
 @font-face {
   font-family: 'icomoonfree';
   src: url("fonts/IcoMoon-Free.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }
 
 @import 'landio.scss';
@@ -20,17 +21,36 @@ $font-family-sans-serif: 'Source Sans Pro', sans-serif;
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .iconfree-database:before {
-  content: "\e964"; 
+  content: "\e964";
 }
 
 .iconfree-tree:before {
-  content: "\e9bc"; 
+  content: "\e9bc";
 }
 
 .iconfree-user-tie:before {
-  content: "\e976"; 
+  content: "\e976";
+}
+
+.form-control-tel:after {
+  content: "\e958";
+  font-family: 'icomoonfree';
+}
+
+.form-control-tel {
+  line-height: inherit;
+  font-family: $font-family-sans-serif;
+
+  &::-webkit-input-placeholder,
+  &:-moz-placeholder,
+  &::-moz-placeholder,
+  &:-ms-input-placeholder { font-family: $font-family-sans-serif; }
+}
+
+.form-control-name {
+  font-family: $font-family-sans-serif;
 }
