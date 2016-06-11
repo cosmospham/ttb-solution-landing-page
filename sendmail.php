@@ -10,6 +10,7 @@ define("FROM_NAME", "TTB Solutions Co., Ltd");
 define("REPLY_TO", "contact@ttb.solutions");
 
 ini_set('default_charset', 'UTF-8');
+date_default_timezone_set('Asia/Ho_Chi_Minh');
 
 $email = @$_GET['email'];
 $name = @$_GET['name'];
