@@ -290,24 +290,24 @@
             <a name="contact">
             <div class="container">
                 <h3 class="text-xs-center m-b-3">Cần tư vấn cho doanh nghiệp của bạn? Hãy để lại thông tin để chúng tôi liên lạc.</h3>
-                <form>
+                <form action="/sendmail.php">
                     <div class="row">
                         <div class="col-md-6 col-xl-3">
                             <div class="form-group has-icon-left form-control-name">
                                 <label class="sr-only" for="inputName">Họ &amp; tên</label>
-                                <input type="text" class="form-control form-control-lg" id="inputName" placeholder="Họ &amp; tên">
+                                <input type="text" class="form-control form-control-lg" id="inputName" name="name" placeholder="Họ &amp; tên">
                             </div>
                         </div>
                         <div class="col-md-6 col-xl-3">
                             <div class="form-group has-icon-left form-control-email">
                                 <label class="sr-only" for="inputEmail">Email</label>
-                                <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email" autocomplete="off">
+                                <input type="email" class="form-control form-control-lg" id="inputEmail" name="email" placeholder="Email" autocomplete="off">
                             </div>
                         </div>
                         <div class="col-md-6 col-xl-3">
                             <div class="form-group has-icon-left form-control-tel iconfree-cell-phone">
                                 <label class="sr-only" for="inputPhone">Số điện thoại</label>
-                                <input type="tel" class="form-control form-control-lg" id="inputPhone" placeholder="Số điện thoại" autocomplete="off">
+                                <input type="tel" class="form-control form-control-lg" id="inputPhone" name="phone" placeholder="Số điện thoại" autocomplete="off">
                             </div>
                         </div>
                         <div class="col-md-6 col-xl-3">

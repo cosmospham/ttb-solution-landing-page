@@ -6,3 +6,4 @@ config.codekit
 TODO
 /bower_components
 /css
+/vendor
